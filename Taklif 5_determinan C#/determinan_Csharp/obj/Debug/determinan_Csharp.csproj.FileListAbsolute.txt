@@ -1,0 +1,6 @@
+F:\program files\Visual Studio 2015\Projects\determinan_Csharp\determinan_Csharp\bin\Debug\determinan_Csharp.exe.config
+F:\program files\Visual Studio 2015\Projects\determinan_Csharp\determinan_Csharp\bin\Debug\determinan_Csharp.exe
+F:\program files\Visual Studio 2015\Projects\determinan_Csharp\determinan_Csharp\bin\Debug\determinan_Csharp.pdb
+F:\program files\Visual Studio 2015\Projects\determinan_Csharp\determinan_Csharp\obj\Debug\determinan_Csharp.csprojResolveAssemblyReference.cache
+F:\program files\Visual Studio 2015\Projects\determinan_Csharp\determinan_Csharp\obj\Debug\determinan_Csharp.exe
+F:\program files\Visual Studio 2015\Projects\determinan_Csharp\determinan_Csharp\obj\Debug\determinan_Csharp.pdb
