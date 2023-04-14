@@ -1,0 +1,6 @@
+F:\program files\Dev c++\New folder\Takalif\Tamrin 11_kmm & bmm\KMM va BMM\KMM va BMM\bin\Debug\KMM va BMM.exe.config
+F:\program files\Dev c++\New folder\Takalif\Tamrin 11_kmm & bmm\KMM va BMM\KMM va BMM\bin\Debug\KMM va BMM.exe
+F:\program files\Dev c++\New folder\Takalif\Tamrin 11_kmm & bmm\KMM va BMM\KMM va BMM\bin\Debug\KMM va BMM.pdb
+F:\program files\Dev c++\New folder\Takalif\Tamrin 11_kmm & bmm\KMM va BMM\KMM va BMM\obj\Debug\KMM va BMM.csprojResolveAssemblyReference.cache
+F:\program files\Dev c++\New folder\Takalif\Tamrin 11_kmm & bmm\KMM va BMM\KMM va BMM\obj\Debug\KMM va BMM.exe
+F:\program files\Dev c++\New folder\Takalif\Tamrin 11_kmm & bmm\KMM va BMM\KMM va BMM\obj\Debug\KMM va BMM.pdb

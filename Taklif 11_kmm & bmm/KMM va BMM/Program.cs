@@ -1,0 +1,52 @@
+﻿//Mohamad Adnan Rezaei
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace KMM_va_BMM
+{
+    class Program
+    {
+        public static void Main()
+        {
+            Console.WriteLine("Enter the first number : ");
+            int X = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the second number : ");
+            int Y = Convert.ToInt32(Console.ReadLine());
+            bmm(X, Y);
+            kmm(X, Y);
+        }
+        private static void bmm(int x, int y)
+        {
+            int r;
+            r = x % y;
+            while (r != 0)
+            {
+                x = y;
+                y = r;
+                r = x % y;
+            }
+            Console.WriteLine("\nBMM do adad = " + y);
+        }
+        private static void kmm(int x, int y)
+        {
+            int max = 0;
+            if (x > y)
+                max = x;
+            else
+                max = y;
+
+            while (true)
+            {
+
+                if (max % x == 0 && max % y == 0)
+                    break;
+                else
+                    ++max;
+            }
+            Console.WriteLine("KMM do adad = " + max);
+        }
+    }
+}
