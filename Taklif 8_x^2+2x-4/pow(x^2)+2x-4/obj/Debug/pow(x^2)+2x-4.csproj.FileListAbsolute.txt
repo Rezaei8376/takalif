@@ -1,0 +1,6 @@
+F:\program files\Dev c++\New folder\Takalif\Taklif 8_x^2+2x-4\pow(x^2)+2x-4\pow(x^2)+2x-4\bin\Debug\pow(x^2)+2x-4.exe.config
+F:\program files\Dev c++\New folder\Takalif\Taklif 8_x^2+2x-4\pow(x^2)+2x-4\pow(x^2)+2x-4\bin\Debug\pow(x^2)+2x-4.exe
+F:\program files\Dev c++\New folder\Takalif\Taklif 8_x^2+2x-4\pow(x^2)+2x-4\pow(x^2)+2x-4\bin\Debug\pow(x^2)+2x-4.pdb
+F:\program files\Dev c++\New folder\Takalif\Taklif 8_x^2+2x-4\pow(x^2)+2x-4\pow(x^2)+2x-4\obj\Debug\pow(x^2)+2x-4.csprojResolveAssemblyReference.cache
+F:\program files\Dev c++\New folder\Takalif\Taklif 8_x^2+2x-4\pow(x^2)+2x-4\pow(x^2)+2x-4\obj\Debug\pow(x^2)+2x-4.exe
+F:\program files\Dev c++\New folder\Takalif\Taklif 8_x^2+2x-4\pow(x^2)+2x-4\pow(x^2)+2x-4\obj\Debug\pow(x^2)+2x-4.pdb
