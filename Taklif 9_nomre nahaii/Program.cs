@@ -1,0 +1,33 @@
+﻿//Mohamad Adnan Rezaei
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace nomre_nahaei
+{
+    class Program
+    {
+        public static void Main()
+        {
+            Console.WriteLine("Nomre mian term : ");
+            Double X = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Nomre payan term : ");
+            Double Y = Convert.ToDouble(Console.ReadLine());
+            Double show = calc(X, Y);
+            Console.WriteLine("\n" + show);
+            if (show >= 10 && show <= 20)
+                Console.WriteLine("Shoma pas shodid ");
+            else if (show >= 0 && show < 10)
+                Console.WriteLine("Shoma pas nashodid !");
+            else
+                Console.WriteLine("Nomarat vared shode dorost nistand");
+        }
+        private static Double calc(Double x, Double y)
+        {
+            Double Result = (x * 0.35) + (y * 0.65);
+            return Result;
+        }
+    }
+}
