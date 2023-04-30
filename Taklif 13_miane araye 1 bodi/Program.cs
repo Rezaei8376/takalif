@@ -1,0 +1,30 @@
+﻿using System;
+namespace ConsolApplication
+{
+    class program
+    {
+        public static void Main()
+
+        {
+            int[] a = new int[50];
+            for (int i = 0; i < 50; i++)
+            {
+                Console.Write("Enter element {0}: ", i + 1);
+                a[i] = int.Parse(Console.ReadLine());
+            }
+            calc(a);
+
+        }
+        private static void calc(int[] a)
+        {
+            for (int i = 1; i <= 48; i++)
+            {
+                a[i] = (a[i - 1] + a[i] + a[i + 1]) / 3;
+            }
+            for (int i = 0; i <= 49; i++)
+            {
+                Console.WriteLine(a[i]);
+            }
+        }
+    }
+}
