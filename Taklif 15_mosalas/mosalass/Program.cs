@@ -1,0 +1,41 @@
+﻿using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Enter three integers:");
+        int a = Convert.ToInt32(Console.ReadLine());
+        int b = Convert.ToInt32(Console.ReadLine());
+        int c = Convert.ToInt32(Console.ReadLine());
+
+        TriangleType(a, b, c);
+    }
+
+    static void TriangleType(int a, int b, int c)
+    {
+        if (a + b > c && a + c > b && b + c > a)
+        {
+            if (a == b && b == c)
+            {
+                Console.WriteLine("Equilateral triangle"); //مثلث متساوی الاضلاع
+            }
+            else if (a == b || b == c || a == c)
+            {
+                Console.WriteLine("Isosceles triangle"); //مثلث متساوی الساقین
+            }
+            else if (a * a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a)
+            {
+                Console.WriteLine("Right triangle"); // مثلث قائم الزاویه
+            }
+            else
+            {
+                Console.WriteLine("Triangle");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Not a triangle");
+        }
+    }
+}
