@@ -1,0 +1,6 @@
+F:\program files\Dev c++\New folder\Takalif\Taklif 14_miane araye 2 bodi\miane_array_2bodi\miane_array_2bodi\bin\Debug\miane_array_2bodi.exe.config
+F:\program files\Dev c++\New folder\Takalif\Taklif 14_miane araye 2 bodi\miane_array_2bodi\miane_array_2bodi\bin\Debug\miane_array_2bodi.exe
+F:\program files\Dev c++\New folder\Takalif\Taklif 14_miane araye 2 bodi\miane_array_2bodi\miane_array_2bodi\bin\Debug\miane_array_2bodi.pdb
+F:\program files\Dev c++\New folder\Takalif\Taklif 14_miane araye 2 bodi\miane_array_2bodi\miane_array_2bodi\obj\Debug\miane_array_2bodi.csprojResolveAssemblyReference.cache
+F:\program files\Dev c++\New folder\Takalif\Taklif 14_miane araye 2 bodi\miane_array_2bodi\miane_array_2bodi\obj\Debug\miane_array_2bodi.exe
+F:\program files\Dev c++\New folder\Takalif\Taklif 14_miane araye 2 bodi\miane_array_2bodi\miane_array_2bodi\obj\Debug\miane_array_2bodi.pdb
