@@ -1,0 +1,6 @@
+F:\program files\Dev c++\New folder\Takalif\Taklif 16_shei garaii ashkal\shei_geraii_ashkal\shei_geraii_ashkal\bin\Debug\shei_geraii_ashkal.exe.config
+F:\program files\Dev c++\New folder\Takalif\Taklif 16_shei garaii ashkal\shei_geraii_ashkal\shei_geraii_ashkal\bin\Debug\shei_geraii_ashkal.exe
+F:\program files\Dev c++\New folder\Takalif\Taklif 16_shei garaii ashkal\shei_geraii_ashkal\shei_geraii_ashkal\bin\Debug\shei_geraii_ashkal.pdb
+F:\program files\Dev c++\New folder\Takalif\Taklif 16_shei garaii ashkal\shei_geraii_ashkal\shei_geraii_ashkal\obj\Debug\shei_geraii_ashkal.csprojResolveAssemblyReference.cache
+F:\program files\Dev c++\New folder\Takalif\Taklif 16_shei garaii ashkal\shei_geraii_ashkal\shei_geraii_ashkal\obj\Debug\shei_geraii_ashkal.exe
+F:\program files\Dev c++\New folder\Takalif\Taklif 16_shei garaii ashkal\shei_geraii_ashkal\shei_geraii_ashkal\obj\Debug\shei_geraii_ashkal.pdb

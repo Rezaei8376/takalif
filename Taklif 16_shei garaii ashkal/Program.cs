@@ -1,0 +1,417 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace project
+{
+    class circle
+    {
+        private double r;
+        double PI = 3.14;
+
+        public double R
+        {
+            get { return r; }
+            set
+            {
+                if (value > 0)
+                {
+                    r = value;
+                }
+            }
+        }
+        public circle() { }
+        public circle(double R)
+        {
+            r = R;
+        }
+        public double S()
+        {
+            return (Math.Pow(r, 2)) * PI;
+        }
+        public double A()
+        {
+            return 2 * r * PI;
+        }
+    }
+    class square
+    {
+        private double a;
+
+        public double A
+        {
+            get { return a; }
+            set
+            {
+                if (value > 0)
+                {
+                    a = value;
+                }
+            }
+        }
+        public square() { }
+        public square(double A)
+        {
+            a = A;
+        }
+        public double M()
+        {
+            return a * a;
+        }
+        public double V()
+        {
+            return 4 * a;
+        }
+    }
+    class triangle
+    {
+        private double g;
+        private double h;
+
+        public double G
+        {
+            get { return g; }
+            set
+            {
+                if (value > 0)
+                {
+                    g = value;
+                }
+            }
+        }
+        public double H
+        {
+            get { return h; }
+            set
+            {
+                if (value > 0)
+                {
+                    h = value;
+                }
+            }
+        }
+        public triangle() { }
+        public triangle(double G, double H)
+        {
+            g = G;
+            h = H;
+        }
+        public double S()
+        {
+            return (g * h) / 2;
+        }
+        public double A()
+        {
+            return g * 3;
+        }
+    }
+    class Trapezius
+    {
+        private double a;
+        private double b;
+        private double c;
+        private double d;
+        private double h;
+
+        public double A
+        {
+            get { return a; }
+            set
+            {
+                if (value > 0)
+                {
+                    a = value;
+                }
+            }
+        }
+        public double B
+        {
+            get { return b; }
+            set
+            {
+                if (value > 0)
+                {
+                    b = value;
+                }
+            }
+        }
+        public double C
+        {
+            get { return c; }
+            set
+            {
+                if (value > 0)
+                {
+                    c = value;
+                }
+            }
+        }
+        public double D
+        {
+            get { return d; }
+            set
+            {
+                if (value > 0)
+                {
+                    d = value;
+                }
+            }
+        }
+        public double H
+        {
+            get { return h; }
+            set
+            {
+                if (value > 0)
+                {
+                    h = value;
+                }
+            }
+        }
+        public Trapezius() { }
+        public Trapezius(double A, double B, double C, double D, double H)
+        {
+            a = A;
+            b = B;
+            c = C;
+            d = D;
+            h = H;
+        }
+        public double M()
+        {
+            double res = (h / 2) * a + b;
+            return res;
+        }
+        public double V()
+        {
+            return a + b + c + d;
+        }
+    }
+    class ellipse
+    {
+        private double x;
+        private double z;
+        double PI = 3.14;
+
+        public double X
+        {
+            get { return x; }
+            set
+            {
+                if (value > 0)
+                {
+                    x = value;
+                }
+            }
+        }
+        public double Z
+        {
+            get { return z; }
+            set
+            {
+                if (value > 0)
+                {
+                    z = value;
+                }
+            }
+        }
+        public ellipse() { }
+        public ellipse(double X, double Z)
+        {
+            x = X;
+            z = Z;
+        }
+        public double S()
+        {
+            return PI * x * z;
+        }
+        public double A()
+        {
+            double res = 2 * PI * ((x * z) / 2);
+            return res;
+        }
+
+    }
+    class Rectangle
+    {
+        private double a;
+        private double b;
+
+        public double A
+        {
+            get { return a; }
+            set
+            {
+                if (value > 0)
+                {
+                    a = value;
+                }
+            }
+        }
+        public double B
+        {
+            get { return b; }
+            set
+            {
+                if (value > 0)
+                {
+                    b = value;
+                }
+            }
+        }
+        public Rectangle() { }
+        public Rectangle(double A, double B)
+        {
+            a = A;
+            b = B;
+        }
+        public double M()
+        {
+            return a * b;
+        }
+        public double V()
+        {
+            return (a + b) * 2;
+        }
+    }
+    class Polygon
+    {
+        private double n;
+        private double s;
+        double PI = 3.14;
+
+        public double N
+        {
+            get { return n; }
+            set
+            {
+                if (value > 0)
+                {
+                    n = value;
+                }
+            }
+        }
+        public double S
+        {
+            get { return s; }
+            set
+            {
+                if (value > 0)
+                {
+                    s = value;
+                }
+            }
+        }
+        public Polygon() { }
+        public Polygon(double N, double S)
+        {
+            n = N;
+            s = S;
+        }
+        public double M()
+        {
+            double res1 = (n * (Math.Pow(s, 2)) / (4 * (Math.Tan(PI / n))));
+            return res1;
+        }
+        public double V()
+        {
+            return n * s;
+        }
+    }
+    class test
+    {
+        public static void Main()
+        {
+
+            Console.WriteLine("No-e shekle hendesi khod ra vared kinid");
+            Console.WriteLine("Dayere(d),Mora-ba(r),Mosalas(s),Zozanaghe(z),Beizi(b),Mostatil(m),Chandzel-ei(h)");
+            char p = Convert.ToChar(Console.ReadLine());
+
+            switch (p)
+            {
+                case 'd':
+                    Console.WriteLine("Shekle shoma dayere ast!");
+                    Console.WriteLine("Sho-aa ra vared konid : ");
+                    double r = Convert.ToDouble(Console.ReadLine());
+
+                    circle C = new circle(r);
+                    Console.WriteLine("Masahat Dayere = " + C.S());
+                    Console.WriteLine("Mohit Dayere = " + C.A());
+                    break;
+                case 'r':
+                    Console.WriteLine("Shekle shoma morab-a ast!");
+                    Console.WriteLine("Zel-e ra vared konid : ");
+                    double a = Convert.ToDouble(Console.ReadLine());
+
+                    square R = new square(a);
+                    Console.WriteLine("Masahat Morab-a = " + R.M());
+                    Console.WriteLine("Mohit Morab-a = " + R.V());
+                    break;
+                case 's':
+                    Console.WriteLine("Shekle shoma mosalas ast!");
+                    Console.WriteLine("Gha-ede ra vared konid : ");
+                    double g = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Ertefa ra vared konid : ");
+                    double h = Convert.ToDouble(Console.ReadLine());
+
+                    triangle S = new triangle(g, h);
+                    Console.WriteLine("Masahat mosalas = " + S.S());
+                    Console.WriteLine("Mohit mosalas = " + S.A());
+                    break;
+                case 'z':
+                    Console.WriteLine("Shekle shoma Zozanaghe ast! ");
+                    Console.WriteLine("Ghaede kochake balaii ra vared konid : ");
+                    double l = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Ghaede bozorge paein ra vared konid : ");
+                    double c = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Do zel-e chap va rast ra be tartib vared konid : ");
+                    double n = Convert.ToDouble(Console.ReadLine());
+                    double m = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Ertefa ra vared konid : ");
+                    double h2 = Convert.ToDouble(Console.ReadLine());
+
+                    Trapezius Z = new Trapezius(l, c, n, m, h2);
+                    Console.WriteLine("Masahat zozanaghe = " + Z.M());
+                    Console.WriteLine("Mohit zozanaghe = " + Z.V());
+                    break;
+                case 'b':
+                    Console.WriteLine("Shekle shoma beizi ast! ");
+                    Console.WriteLine("Shoa-e kochak ra vared konid : ");
+                    double r2 = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Shoa-e bozorg ra vared konid : ");
+                    double r3 = Convert.ToDouble(Console.ReadLine());
+
+                    ellipse B = new ellipse(r2, r3);
+                    Console.WriteLine("Masahat beizi = " + B.S());
+                    Console.WriteLine("Mohit beizi = " + B.A());
+                    break;
+                case 'm':
+                    Console.WriteLine("Shekle shoma mostatil ast! ");
+                    Console.WriteLine("Zel-e kochak ra vared konid : ");
+                    double a2 = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Zel-e bozorg ra vared konid : ");
+                    double b2 = Convert.ToDouble(Console.ReadLine());
+
+                    Rectangle M = new Rectangle(a2, b2);
+                    Console.WriteLine("Masahat mostatil = " + M.M());
+                    Console.WriteLine("Mohit mostatil = " + M.V());
+                    break;
+                case 'h':
+                    Console.WriteLine("Shekle shoma chandzel-ei montazam ast! ");
+                    Console.WriteLine("Te-dad azla ra vared konid : ");
+                    double n2 = Convert.ToDouble(Console.ReadLine());
+                    Console.WriteLine("Tool har zel-e ra vared konid : ");
+                    double s = Convert.ToDouble(Console.ReadLine());
+
+                    Polygon H = new Polygon(n2, s);
+                    Console.WriteLine("Masahat chandzel-ei = " + H.M());
+                    Console.WriteLine("Mohit chandzel-ei = " + H.V());
+                    break;
+            }
+        }
+    }
+
+}
+
