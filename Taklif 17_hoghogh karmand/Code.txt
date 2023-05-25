@@ -1,0 +1,70 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace hoghogh_karmand
+{
+    class hoghogh
+    {
+        private double khales;
+        private double bimeh;
+        private double tax;
+
+        public double Khales
+        {
+            get { return khales; }
+            set { if (value > 0)
+                {
+                    khales = value;
+                }
+            }
+        }
+        public double Bimeh
+        {
+            get { return bimeh; }
+            set { if (value > 0 )
+                {
+                    bimeh = value;
+                }
+            }
+        }
+        public double Tax
+        {
+            get { return tax; }
+            set { if (value > 0 )
+                {
+                    tax = value;
+                }
+            }
+        }
+        public hoghogh () { }
+        public hoghogh (double Khales,double Bimeh,double Tax)
+        {
+            khales = Khales;
+            bimeh = Bimeh;
+            tax = Tax;
+        }
+        public double calc ()
+        {
+            double res = (khales - bimeh) / tax;
+            return res;
+        }
+    }
+    class Program
+    {
+        public static void Main()
+        {
+            Console.WriteLine("Hoghogh khales ra vared konid : ");
+            double a = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Mablagh bimeh ra vared konid : ");
+            double b = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Mablagh maliat ra vared konid : ");
+            double c = Convert.ToDouble(Console.ReadLine());
+
+            hoghogh H = new hoghogh(a, b, c);
+            Console.WriteLine("Hoghogh daryafti karmand = " + H.calc());
+        }
+    }
+}
